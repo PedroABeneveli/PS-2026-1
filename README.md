@@ -3,7 +3,7 @@
 <img width="1000" height="1067" alt="unbreakablelogo" src="https://github.com/user-attachments/assets/3030cb10-66c3-4788-8489-d68468b6e6c2" />
 
 
-Repositório oficial do processo seletivo do **Grupo de Segurança (CTF/Hacking** da UnB.
+Repositório oficial do processo seletivo do **Grupo de Segurança (CTF/Hacking)** da UnB.
 
 ---
 
@@ -11,10 +11,11 @@ Repositório oficial do processo seletivo do **Grupo de Segurança (CTF/Hacking*
 
 | Evento | Data |
 |---|---|
-| Lançamento dos desafios | 10/04/2026 (sexta-feira) |
-| Prazo final de entrega | 27/04/2026 às 23h59 |
-| Período de correção | 28, 29 e 30/04/2026 |
-| Divulgação dos resultados | 01 ou 02/05/2026 |
+| Lançamento dos desafios | 10/04 às 13h |
+| 1º Encontro prático | 13/04 às 18h |
+| 2º Encontro prático | 20/04 às 14h (Ponto Facultativo) |
+| Prazo final de entrega | até 24/04 às 23h59 |
+| Divulgação dos resultados | 29/04 |
 
 ---
 
@@ -24,18 +25,18 @@ Todos os desafios são liberados **de uma vez**. O ranking considera tempo de re
 
 | # | Nome | Plataforma | Dificuldade | 
 |---|---|---|---|
-| 01 | [Simple CTF](https://tryhackme.com/room/easyctf) | TryHackMe | Linux | 
-| 02 | [Bounty Hacker](https://tryhackme.com/room/cowboyhacker) | TryHackMe | Linux | 
-| 03 | [Oopsie](https://app.hackthebox.com/machines/Oopsie) | HackTheBox |Linux | 
-| 04 | [CCTV](https://app.hackthebox.com/machines/CCTV) | HackTheBox | Linux ⭐ |
+| 01 | [Simple CTF](https://tryhackme.com/room/easyctf) | TryHackMe | Easy | 
+| 02 | [Bounty Hacker](https://tryhackme.com/room/cowboyhacker) | TryHackMe | Easy | 
+| 03 | [Oopsie](https://app.hackthebox.com/machines/Oopsie) | HackTheBox |Very Easy | 
+| 04 | [CCTV](https://app.hackthebox.com/machines/CCTV) | HackTheBox | Easy ⭐ |
 
 > ⭐ **CCTV** é uma máquina ativa da Season 10 do HTB, vale pontos na plataforma e é o diferencial para candidatos de nível avançado. Não há write-ups disponíveis online.
 
 ### Sistema de pontuação
 
-- Resolver os desafios básicos já garante boa chance de aprovação.
-- O tempo de entrega (timestamp do Pull Request) desempata candidatos com mesma pontuação.
-- Candidatos que resolverem o CCTV serão automaticamente destacados.
+- Resolver os desafios básicos já garante boa chance de aprovação;
+- O tempo de entrega (timestamp do Pull Request) desempata candidatos com mesma pontuação;
+- Participação nos encontros práticos e critérios subjetivos (como esforço) poderão ser usados como critérios de desempates.
 
 ---
 
@@ -59,10 +60,10 @@ Coloque os PDFs dos write-ups dentro da sua pasta, nomeando conforme o desafio:
 
 ```
 /seu-nome-completo/
-    desafio-01-simple-ctf.pdf
-    desafio-02-bounty-hacker.pdf
-    desafio-03-oopsie.pdf
-    desafio-04-cctv.pdf     
+    seu-nome-completo-simple-ctf.pdf
+    seu-nome-completo-bounty-hacker.pdf
+    seu-nome-completo-oopsie.pdf
+    seu-nome-completo-cctv.pdf     
 ```
 
 ### 4. Abra um Pull Request por desafio concluído
@@ -73,22 +74,11 @@ Coloque os PDFs dos write-ups dentro da sua pasta, nomeando conforme o desafio:
 
 ##  Formato do Relatório (Write-up)
 
-- Formato: **PDF** (template disponibilizado repositorio)
-- Um arquivo por desafio
-- O relatório deve conter:
-  - Passo a passo da resolução
-  - Path completo e flags capturadas (`user.txt` e `root.txt`)
-  - **Análise de impacto** das vulnerabilidades exploradas ← diferencial avaliativo
+- Formato: apenas **PDF**;
+- Um arquivo por desafio;
+- O relatório deve seguir o template de write presnete no reposiótio (template-writeup.pdf).
 
 > Relatórios gerados automaticamente por IA serão identificados durante a correção. Demonstre seu raciocínio.
-
----
-
-##  Pré-requisitos esperados
-
-- Noções de protocolos de rede (TCP/IP, HTTP, FTP, SSH…)
-- Familiaridade com sistemas operacionais Linux
-- Capacidade de pesquisa autônoma
 
 ---
 
@@ -106,14 +96,7 @@ O descumprimento dessas regras implica desclassificação imediata e possíveis 
 
 ## Dúvidas
 
-Entre em contato pelo **WhatsApp do grupo** ou aguarde os encontros práticos semanais via Discord.
-
-| Encontro | Data prevista |
-|---|---|
-| 1º encontro prático | 13 ou 14/04/2026 (a confirmar) |
-| 2º encontro prático | 20 ou 22/04/2026 (a confirmar) |
-
-> ⚠️ Dia 21/04 é feriado nacional (Tiradentes), sem atividades.
+Entre em contato pelo **WhatsApp do grupo**.
 
 ---
 
